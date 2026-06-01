@@ -82,12 +82,18 @@ def _pil_to_qpixmap(img):
     return QPixmap.fromImage(qi)
 
 def _load_seq(subdir, size=None):
+    from PIL import ImageEnhance
     path = os.path.join(FRAMES_DIR, subdir)
     if not os.path.isdir(path): return []
     files = sorted(f for f in os.listdir(path) if f.endswith(".png"))
     imgs  = []
     for f in files:
         im = Image.open(os.path.join(path,f)).convert("RGBA")
+        # 调亮 RGB 通道，保留 alpha
+        r, g, b, a = im.split()
+        rgb = Image.merge("RGB", (r, g, b))
+        rgb = ImageEnhance.Brightness(rgb).enhance(1.2)
+        im = Image.merge("RGBA", (*rgb.split(), a))
         if size: im = im.resize((size,size), Image.LANCZOS)
         imgs.append(im)
     return imgs
