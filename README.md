@@ -3,7 +3,7 @@
 > A 3D Minecraft-style wolf that lives on your desktop. His name is **Pudding** (布丁).  
 > Built with Blender (rendering) + PyQt6 (display). Runs on **macOS** and **Windows**.
 
-<img src="docs/preview_front.png" width="180" alt="Pudding preview"/>
+<p align="center"><img src="docs/preview_front.png" width="180" alt="Pudding preview"/></p>
 
 ---
 
