@@ -3,7 +3,7 @@
 > A 3D Minecraft-style wolf that lives on your desktop. His name is **Pudding** (布丁).  
 > Built with Blender (rendering) + PyQt6 (display). Runs on **macOS** and **Windows**.
 
-![Pudding preview](wolf_pet/frames/body_00/0000.png)
+<img src="docs/preview_front.png" width="180" alt="Pudding preview"/>
 
 ---
 
@@ -11,7 +11,7 @@
 
 | Front | Side | Back |
 |:---:|:---:|:---:|
-| ![front](wolf_pet/frames/body_00/0000.png) | ![side](wolf_pet/frames/body_03/0000.png) | ![back](wolf_pet/frames/body_06/0000.png) |
+| <img src="docs/preview_front.png" width="140"/> | <img src="docs/preview_side.png" width="140"/> | <img src="docs/preview_back.png" width="140"/> |
 
 3D walk animation · 12 rotation angles · directional shadow · always-on-top · frameless transparent window · optional gaze tracking
 
