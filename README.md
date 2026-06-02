@@ -9,6 +9,10 @@
 
 ## Features
 
+| Front | Side | Back |
+|:---:|:---:|:---:|
+| ![front](wolf_pet/frames/body_00/0000.png) | ![side](wolf_pet/frames/body_03/0000.png) | ![back](wolf_pet/frames/body_06/0000.png) |
+
 3D walk animation · 12 rotation angles · directional shadow · always-on-top · frameless transparent window · optional gaze tracking
 
 ---
