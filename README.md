@@ -9,13 +9,24 @@
 
 ## Features
 
-- **True 3D rotation** — 12 pre-rendered camera angles give Pudding a real 3D appearance
-- **Smooth animation** — 24-frame walk cycle at 12 FPS
-- **Directional shadow** — soft shadow cast beneath Pudding for depth
-- **Always on top** — floats above all other windows, never gets in the way
-- **Click-through friendly** — right-click menu only; left-click is reserved for dragging
-- **Gaze tracking** *(optional)* — Pudding's head follows your mouse cursor
-- **Frameless & transparent** — blends naturally into any desktop wallpaper
+3D walk animation · 12 rotation angles · directional shadow · always-on-top · frameless transparent window · optional gaze tracking
+
+---
+
+## Usage
+
+| Action | Result |
+|---|---|
+| **Left-click + drag** | Move Pudding anywhere on screen |
+| **Right-click + drag left/right** | Rotate view angle (12 steps × 30°) |
+| **Two-finger swipe left/right** *(macOS)* | Rotate view angle |
+| **Scroll wheel left/right** | Rotate view angle |
+| **Right-click (no drag)** | Open menu |
+
+### Right-click Menu
+
+- **Gaze Follow (on/off)** — Pudding's head tracks your mouse cursor
+- **Quit** — close the pet
 
 ---
 
@@ -90,23 +101,6 @@
    @echo off
    python wolf_pet\wolf_pet.py
    ```
-
----
-
-## Usage
-
-| Action | Result |
-|---|---|
-| **Left-click + drag** | Move Pudding anywhere on screen |
-| **Right-click + drag left/right** | Rotate view angle (12 steps × 30°) |
-| **Two-finger swipe left/right** *(macOS)* | Rotate view angle |
-| **Scroll wheel left/right** | Rotate view angle |
-| **Right-click (no drag)** | Open menu |
-
-### Right-click Menu
-
-- **Gaze Follow (on/off)** — toggle whether Pudding's head tracks your cursor
-- **Quit** — close the pet
 
 ---
 
